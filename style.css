@@ -7,7 +7,7 @@ body
 #header
 {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(abstract-art-blur-bokeh-285173.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(person-walking-on-shore-1665722.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -59,6 +59,11 @@ body
 {
     0%{transform: translateY(0);}
     100%{transform: translateY(10px);}
+}
+.profile-img
+{
+    width: 320px; 
+    height: 300px;
 }
 .skills-bar p
 {
