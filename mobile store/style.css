@@ -185,16 +185,20 @@
 {
     cursor: pointer;
 }
-.banner3
+.banner3 img
 {
-    display: block;
-    margin-left: auto;
+    flex-direction: column;
+    margin: 10px 100px 50px 100px;
 }
-.banner3-img
+.banner3-img img
 {
     width: 100%;
-    margin: 0 200px 200px;
-    display: inline-block;
+    margin: 10px 100px 50px 100px;
+    flex-direction: column;
+}
+.product-brand
+{
+    flex-direction: row;
 }
 .footer
 {
@@ -220,11 +224,218 @@
 {
     margin: 20px;
 }
-@media only screen and (max-width:900px)
+@media (min-width:360px)
 {
-    .banner-img
+    .banner-img img
     {
-        margin:  40px auto;
-        width: 40%;
+        margin: 0 100px 0 -200px;
+        width: 100%;
+    }
+    .banner1-img img
+    {
+        margin: 0 100px 0 -200px;
+        width: 100%;
+    }
+    .banner3 img
+    {
+        flex-direction: column;
+        margin: 0px 10px 40px 10px;
+        width: 80%;
+    }
+    .banner3-img img
+    {
+        flex-direction: column;
+        margin: 0px 10px 40px 10px;
+        width: 80%;
+    }
+    .product-brand img
+    {
+        flex-direction: row;
+        padding: 10px;
     }
 }
+/*.right-menu li{
+    display: inline-block;
+    margin-top: 30px !important;
+}
+.right-menu li .fa
+{
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.navbar-brand img
+{
+    width: 75px;
+    cursor: pointer;
+}
+.header
+{
+    background: whitesmoke;
+}
+.navbar
+{
+    padding: 0 35px !important;
+}
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin-top: 30px;
+}
+.navbar-toggler .fa
+{
+    font-size: 30px;
+    cursor: pointer;
+}
+.banner-img img
+{
+    width: 100%;
+}
+.banner1-img img
+{
+    width: 100%;
+}
+
+/* PRODUCTS SECTION 
+.products-box
+{
+    margin: 80px 0;
+}
+.tittle-style h2
+{
+    padding: 40px 0;
+}
+.tittle-style
+{
+    margin: 0 auto 80px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0,50,0.5);
+}
+.tittle-style::after
+{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+.tittle-style::before
+{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+
+.product{
+    padding-left: 7em;
+}
+.card{
+    margin-right: 1rem;
+}
+.card-flex{
+    display: flex;
+    justify-content: space-between;;
+}
+
+.card img{
+    height: 410px;
+    width: 210px;
+}
+
+/* ACCESSORIES 
+.banner-2 img{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+/* BRANDS 
+.brand-flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* FOOTER 
+.footer
+{
+    margin-top: 50px;
+    background: #f5f6fc;
+}
+.app-flex{
+    display: flex;
+    justify-content: space-evenly;  
+}
+.foot-flex
+{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-icons .fa
+{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+.app-download
+{
+    margin: 20px;
+}
+
+/* MAKING THE WEBSITE RESPONSIVE USING CSS MEDIA QUERIES 
+
+@media (max-width:768px){
+    .card-flex{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:576px){
+    .card-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 85% !important;
+        margin-right: 7em !important;
+    }
+    .brand-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .brand-logo{
+        margin-bottom: 2em;
+    }
+    .app-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;  
+    }
+    .foot-flex  
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-text{
+        text-align: center;
+    }
+}*/
