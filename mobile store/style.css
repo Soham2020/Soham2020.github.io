@@ -48,6 +48,12 @@
     margin: 200px;
     width: 100%;
 }
+.carousel-inner{
+    display: flex;
+    justify-content: left;
+    margin-top: 2rem;
+    min-width:576px ;
+}
 .product-style
 {
     padding: 80px 0;
