@@ -135,6 +135,10 @@ body
     border-bottom-right-radius: 25px;
     transition: 1s;
 }
+*{
+    box-sizing: border-box;
+}
+
 .contact
 {
     padding-top: 50px;
@@ -183,6 +187,7 @@ body
     margin-top: 50px;
     color: azure;
     padding-top: 10px;
+    width: fit-content;
 }
 #nav-bar
 {
@@ -214,5 +219,13 @@ body
     {
         font-weight: 300;
     }
-
+    .contact
+    {
+    padding-top: 50px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(photography-of-stones-1029604.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+    }
 }
