@@ -1,0 +1,22 @@
+/**{
+    margin: 0;
+    padding: 0;
+}
+.slider .btn{
+    margin-top: 20px;
+}
+.container{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-search input {
+    padding: 5px !important;
+    font-size: 18px !important;
+    width: 90% !important;
+    border: #f4f4f4 3px solid !important;
+  }*/
+#footer{
+    background-image: url('water-droplet-digital-wallpaper-1100946.jpg');
+}
