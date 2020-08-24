@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>COVID-19 TRACKER</h1><hr/>
+        <h3>Last updated-></h3>
+        <h3 id="date">Date Time</h3>
+        <form autocomplete="off">
+            <input type="text" name="srch" id="srch" required
+            list="countries" placeholder="Search">
+            <datalist id="countries">
+                <option value="World">Global</option>
+            </datalist> 
+            <button class="success" style="color: aqua; background-color: black;">Search</button>
+        </form>
+        <br>
+        <h2 id="name-country">The World</h2>
+        <div class="content">
+            <div class="box confirmed">
+                <p><strong>Confirmed</strong></p>
+                <h3>0</h3>
+                <i class="fa fa-caret-square-o-up" style="color: white;"> 0</i>
+            </div>
+            <div class="box deaths">
+                <p><strong>Deaths</strong></p>
+                <h3>0</h3>
+                <i class="fa fa-caret-square-o-up" style="color: white;"> 0</i>
+            </div>
+            <div class="box recovered">
+                <p><strong>Recovered</strong></p>
+                <h3>0</h3>
+                <i class="fa fa-caret-square-o-up" style="color: white;"> 0</i>
+            </div>
+        </div>
+        <div class="chart"></div>
+        <div class="nav">
+            <div class="align-center">
+                <h3>Made with <i class="fa fa-heart" style="color: brown;"></i> by Soham Das <i class="fa fa-github float-right"><a href="https://github.com/Soham2020"></a></i></h3>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
